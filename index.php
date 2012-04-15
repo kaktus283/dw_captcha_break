@@ -19,7 +19,7 @@
   echo 'Captcha in black has been saved!<br />';
   }
 //Function in action
-  removeColor( 'captcha2.png', 250, 50 );
+  removeColor( 'captcha/1.png', 250, 50 );
   $end = explode( ' ', microtime() );
   $end = $end[0] + $end[1];
   $time = $end - $start;
